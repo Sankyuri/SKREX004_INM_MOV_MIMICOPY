@@ -1,0 +1,19 @@
+﻿<Window x:Class="inm_mov_mimicopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inm_mov_mimicopy"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize">
+    <Grid
+          Width="986"
+          Height="984">
+        <MediaElement x:Name="media_player" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="960" Margin="10,10,0,0"/>
+        <TextBox x:Name="txb_answer" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="960" Height="226" Margin="10,0,0,90" FontSize="36" BorderBrush="#FF891301" KeyDown="txb_answer_KeyDown" />
+        <Button x:Name="btn_next" Content="次" HorizontalAlignment="Left" Margin="10,899,0,0" Height="75" Width="960" FontSize="36" Click="btn_next_Click" VerticalContentAlignment="Center" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
